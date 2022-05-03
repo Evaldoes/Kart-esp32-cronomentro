@@ -27,17 +27,17 @@ esse dado de forma intuitiva para o usuário final.
 ### Clonand o projeto
 Clone o projeto 
 
-  `$ 'git clone git@github.com:Evaldoes/Kart-esp32-cronomentro.git`
+  `$ git clone git@github.com:Evaldoes/Kart-esp32-cronomentro.git`
   
-   `$ 'source venv/bin/activate'`
+   `$ source venv/bin/activate'`
    
-   `$ 'cd venv/lib/python3.9/site-packages/serial/tools/'`
+   `$ cd venv/lib/python3.9/site-packages/serial/tools/`
    
-   `$ 'python3 -m miniterm /dev/ttyUSB0 115200'`
+   `$ python3 -m miniterm /dev/ttyUSB0 115200`
    
 ### Executando
   Depois que realizar a gravação dos arquivos na placar, aperte o push button no esp32 e o boot será iniciado e script já estará sendo executado.
   
-   `$ 'python3 -m miniterm /dev/ttyUSB0 115200'`
+   `$ python3 -m miniterm /dev/ttyUSB0 115200`
    
    Para ver o logs do microcontrolador basta executar o comando acima.
