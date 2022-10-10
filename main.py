@@ -18,6 +18,7 @@ startedRound = False
 
 def getCurrent():
     global currentCar
+    print('Buscando carro!')
     req = urequests.get(URL_API + "/track/current")
     if req.status_code == 200:
         res = req.json()
