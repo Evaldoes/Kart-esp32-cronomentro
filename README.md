@@ -1,5 +1,7 @@
 # Kartodromo ESP32 Firmware
 
+A aplicação web deste projeto está em [cronometro-kartodromo](https://github.com/Evaldoes/cronometro-kartodromo).
+
 O Kartodromo ESP32 é um firmware em escrito em micropython desenvolvida para registro de campeonatos de corrida de automóveis. 
 A ideia é que seja a interface de comunicação entre o microcontrolador, que captura os tempos de cada volta na pista, e a aplicação Web, que disponibiliza
 esse dado de forma intuitiva para o usuário final.
@@ -27,7 +29,7 @@ esse dado de forma intuitiva para o usuário final.
 ### Clonand o projeto
 Clone o projeto 
 
-  `$ git clone git@github.com:Evaldoes/Kart-esp32-cronomentro.git`
+  `$ git clone git@github.com:Evaldoes/Kart-esp32-cronometro.git`
   
    `$ source venv/bin/activate'`
    
@@ -35,6 +37,9 @@ Clone o projeto
    
    `$ python3 -m miniterm /dev/ttyUSB0 115200`
    
+### Configurando o Wi-Fi
+  Copie `config.example.py` para `config.py`, preencha a rede e grave o arquivo na placa.
+
 ### Executando
   Depois que realizar a gravação dos arquivos na placar, aperte o push button no esp32 e o boot será iniciado e script já estará sendo executado.
   
